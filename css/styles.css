@@ -106,7 +106,9 @@ html {
       text-decoration: none;
       padding: 8px 24px; }
     html body .content-container .content h4 {
-      margin-top: 64px; }
+      margin-top: 64px;
+      font-size: 32px;
+      border-bottom: 1px solid #ccc; }
     html body .content-container .content .link {
       position: relative; }
     html body .content-container .content .callout-box {
