@@ -193,6 +193,7 @@ html {
         font-size: 17px;
         line-height: 28px; }
       html body .masthead h1 {
+        padding: 0px 10px;
         max-width: 100%;
         width: 100%; }
       html body .content-container .content {
