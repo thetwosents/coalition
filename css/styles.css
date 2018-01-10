@@ -113,7 +113,7 @@ html {
       position: relative; }
     html body .content-container .content .callout-box {
       margin: 48px auto;
-      padding: 16px;
+      padding: 24px 16px;
       border-top: 1px solid #ccc;
       border-bottom: 1px solid #ccc; }
       html body .content-container .content .callout-box i {
