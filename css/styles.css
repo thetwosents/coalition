@@ -118,6 +118,9 @@ html {
       border-bottom: 1px solid #ccc; }
       html body .content-container .content .callout-box i {
         display: none; }
+      html body .content-container .content .callout-box h4 {
+        color: #A62222;
+        border: 0px; }
       html body .content-container .content .callout-box a:hover {
         cursor: pointer;
         text-decoration: underline; }
