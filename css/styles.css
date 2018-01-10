@@ -197,6 +197,10 @@ html {
         width: 100%; }
       html body .content-container .content {
         padding: 0px 10px; }
+        html body .content-container .content img {
+          float: none !important;
+          margin: 0px auto !important;
+          width: 100% !important; }
         html body .content-container .content h4 {
           font-size: 24px; }
       html body .sidebar-container .sidebar .widget.form {

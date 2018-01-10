@@ -265,6 +265,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
       .content-container {
         .content {
           padding: 0px 10px;
+          img {
+            float: none !important;
+            margin: 0px auto !important;
+            width: 100% !important;
+          }
           h4 {
             font-size: 24px;
           }
