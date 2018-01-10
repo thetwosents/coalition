@@ -34,6 +34,9 @@ html {
   padding: 0px;
   margin: 0px; }
   html body {
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
     padding: 0px;
     margin: 0px; }
     html body .masthead {
@@ -195,6 +198,7 @@ html {
       html body .masthead h1 {
         padding: 0px 10px;
         max-width: 100%;
+        box-sizing: border-box;
         width: 100%; }
       html body .content-container .content {
         padding: 0px 10px; }
@@ -205,10 +209,11 @@ html {
         html body .content-container .content h4 {
           font-size: 24px; }
       html body .sidebar-container .sidebar .widget.form {
-        margin-top: 30px; }
+        margin-top: 30px !important; }
       html body header {
-        padding: 8px 0px;
-        text-align: center; }
+        box-sizing: border-box;
+        padding: 8px 12px;
+        text-align: left; }
         html body header .logo {
           margin: 0 auto;
           max-width: 25%; }

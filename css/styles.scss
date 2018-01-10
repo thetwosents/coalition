@@ -40,6 +40,9 @@ html {
   padding: 0px;
   margin: 0px;
   body {
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
     padding: 0px;
     margin: 0px;
     .masthead {
@@ -260,6 +263,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
         h1 {
           padding: 0px 10px;
           max-width: 100%;
+          box-sizing: border-box;
           width: 100%;
         }
       }
@@ -280,14 +284,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
         .sidebar {
           .widget {
             &.form {
-              margin-top: 30px;
+              margin-top: 30px !important;
             }
           }
         }
       }
       header {
-        padding: 8px 0px;
-        text-align: center;
+        box-sizing: border-box;
+        padding: 8px 12px;
+        text-align: left;
         .logo {
           margin: 0 auto;
           max-width: 25%;
