@@ -15,8 +15,7 @@ form {
     font-weight: 700;
     transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    opacity: .9; }
+    -moz-transition: all .2s ease-in-out; }
   form button {
     width: 100%;
     display: block;
