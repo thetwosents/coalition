@@ -193,7 +193,10 @@ html {
         font-size: 17px;
         line-height: 28px; }
       html body header {
+        padding: 8px 0px;
         text-align: center; }
         html body header .logo {
           margin: 0 auto;
-          max-width: 50%; } }
+          max-width: 25%; }
+        html body header .btn {
+          display: none; } }

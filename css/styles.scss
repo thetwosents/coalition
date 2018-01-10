@@ -257,10 +257,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
         line-height: 28px;
       }
       header {
+        padding: 8px 0px;
         text-align: center;
         .logo {
           margin: 0 auto;
-          max-width: 50%;
+          max-width: 25%;
+        }
+        .btn {
+          display: none;
         }
       }
     }
